@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.planner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-section, .meal-plan {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+}
+
+h2 {
+    color: #ff6f61;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #e65a50;
+}
+
+.meal-plan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.meal-plan li {
+    background: #ffe8e6;
+    border: 1px solid #ff6f61;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.meal-plan li span {
+    font-weight: bold;
+}
